@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/lesser-doom.dir/src/main.c.o" -o lesser-doom  /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so /usr/lib/libSDL2main.a /usr/lib/libSDL2.so /usr/lib/libGLEW.so -lm 
