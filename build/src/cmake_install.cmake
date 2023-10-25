@@ -1,4 +1,4 @@
-# Install script for directory: /home/icarus/Desktop/Coding/lesser-doom/src
+# Install script for directory: /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

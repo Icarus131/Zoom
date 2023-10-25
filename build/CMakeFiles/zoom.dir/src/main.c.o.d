@@ -1,5 +1,5 @@
-CMakeFiles/lesser-doom.dir/src/main.c.o: \
- /home/icarus/Desktop/Coding/lesser-doom/src/main.c \
+CMakeFiles/zoom.dir/src/main.c.o: \
+ /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/src/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \

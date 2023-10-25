@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/icarus/Desktop/Coding/lesser-doom
+CMAKE_SOURCE_DIR = /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/icarus/Desktop/Coding/lesser-doom/build
+CMAKE_BINARY_DIR = /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/lesser-doom/build/CMakeFiles /home/icarus/Desktop/Coding/lesser-doom/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build/CMakeFiles /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/lesser-doom/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lesser-doom
+# Target rules for targets named zoom
 
 # Build rule for target.
-lesser-doom: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lesser-doom
-.PHONY : lesser-doom
+zoom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zoom
+.PHONY : zoom
 
 # fast build rule for target.
-lesser-doom/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lesser-doom.dir/build.make CMakeFiles/lesser-doom.dir/build
-.PHONY : lesser-doom/fast
+zoom/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoom.dir/build.make CMakeFiles/zoom.dir/build
+.PHONY : zoom/fast
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lesser-doom.dir/build.make CMakeFiles/lesser-doom.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoom.dir/build.make CMakeFiles/zoom.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -142,7 +142,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lesser-doom.dir/build.make CMakeFiles/lesser-doom.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoom.dir/build.make CMakeFiles/zoom.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -150,7 +150,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lesser-doom.dir/build.make CMakeFiles/lesser-doom.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoom.dir/build.make CMakeFiles/zoom.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lesser-doom"
+	@echo "... zoom"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

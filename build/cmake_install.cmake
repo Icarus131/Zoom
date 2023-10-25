@@ -1,4 +1,4 @@
-# Install script for directory: /home/icarus/Desktop/Coding/lesser-doom
+# Install script for directory: /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/icarus/Desktop/Coding/lesser-doom/build/src/cmake_install.cmake")
+  include("/home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/icarus/Desktop/Coding/lesser-doom/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

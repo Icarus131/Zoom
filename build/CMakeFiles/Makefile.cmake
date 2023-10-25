@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/icarus/Desktop/Coding/lesser-doom/CMake/FindSDL2.cmake"
-  "/home/icarus/Desktop/Coding/lesser-doom/CMakeLists.txt"
+  "/home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/CMake/FindSDL2.cmake"
+  "/home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/CMakeLists.txt"
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
-  "/home/icarus/Desktop/Coding/lesser-doom/src/CMakeLists.txt"
+  "/home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/src/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -57,5 +57,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/lesser-doom.dir/DependInfo.cmake"
+  "CMakeFiles/zoom.dir/DependInfo.cmake"
   )

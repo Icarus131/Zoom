@@ -430,24 +430,24 @@ int thread_args[NUM_THREADS];
 World world;
 char map[] = 
     "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
-    "b                 g          g"
-    "b                 g          g"
-    "b   P             g          g"
-    "b                 g          g"
-    "b                 g          g"
-    "b                 g          g"
-    "b     ggggggggggggg     #####g"
-    "b                 g          g"
-    "b  r              g          g"
-    "b                 g          g"
-    "b                            g"
-    "b                            g"
-    "b    gb           rrrrr    bbg"
-    "b                 r          g"
-    "b                 r          g"
-    "b                 r          g"
-    "b                 r          g"
-    "b###################  ########";
+    "r                 r          r"
+    "r                 r          r"
+    "r   P             r          r"
+    "r                 r          r"
+    "r                 r          r"
+    "r                 r          r"
+    "r     rrrrrrrrrrrrr     rrrrrr"
+    "r                 r          r"
+    "r  r              r          r"
+    "r                 r          r"
+    "r                            r"
+    "r                            r"
+    "r    rr           rrrrr    rrr"
+    "r                 r          r"
+    "r                 r          r"
+    "r                 r          r"
+    "r                 r          r"
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrr";
 
 const int world_width = 30;
 const int world_height = 19;
@@ -579,7 +579,7 @@ void* renderScene(void* thread_num) {
                     
                     double floor_depth = HEIGHT / ((y - HEIGHT/2.0f)*2.0f); // Opposite of the wall_height equation
 
-                    int floor_color = 0x202020;
+                    int floor_color = 0x635244;
 
                     double floor_fog = getFogAmount(floor_depth);
                     

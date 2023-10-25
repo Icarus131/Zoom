@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/icarus/Desktop/Coding/lesser-doom/src/main.c" "CMakeFiles/lesser-doom.dir/src/main.c.o" "gcc" "CMakeFiles/lesser-doom.dir/src/main.c.o.d"
+  "/home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/src/main.c" "CMakeFiles/zoom.dir/src/main.c.o" "gcc" "CMakeFiles/zoom.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

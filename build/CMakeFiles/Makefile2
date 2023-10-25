@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/icarus/Desktop/Coding/lesser-doom
+CMAKE_SOURCE_DIR = /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/icarus/Desktop/Coding/lesser-doom/build
+CMAKE_BINARY_DIR = /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lesser-doom.dir/all
+all: CMakeFiles/zoom.dir/all
 all: src/all
 .PHONY : all
 
@@ -72,7 +72,7 @@ preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lesser-doom.dir/clean
+clean: CMakeFiles/zoom.dir/clean
 clean: src/clean
 .PHONY : clean
 
@@ -92,30 +92,30 @@ src/clean:
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lesser-doom.dir
+# Target rules for target CMakeFiles/zoom.dir
 
 # All Build rule for target.
-CMakeFiles/lesser-doom.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lesser-doom.dir/build.make CMakeFiles/lesser-doom.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lesser-doom.dir/build.make CMakeFiles/lesser-doom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/icarus/Desktop/Coding/lesser-doom/build/CMakeFiles --progress-num=1,2 "Built target lesser-doom"
-.PHONY : CMakeFiles/lesser-doom.dir/all
+CMakeFiles/zoom.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoom.dir/build.make CMakeFiles/zoom.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoom.dir/build.make CMakeFiles/zoom.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build/CMakeFiles --progress-num=1,2 "Built target zoom"
+.PHONY : CMakeFiles/zoom.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lesser-doom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/lesser-doom/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lesser-doom.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/lesser-doom/build/CMakeFiles 0
-.PHONY : CMakeFiles/lesser-doom.dir/rule
+CMakeFiles/zoom.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zoom.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/icarus/Desktop/Coding/ActivePool/College-Projects/Zoom/build/CMakeFiles 0
+.PHONY : CMakeFiles/zoom.dir/rule
 
 # Convenience name for target.
-lesser-doom: CMakeFiles/lesser-doom.dir/rule
-.PHONY : lesser-doom
+zoom: CMakeFiles/zoom.dir/rule
+.PHONY : zoom
 
 # clean rule for target.
-CMakeFiles/lesser-doom.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lesser-doom.dir/build.make CMakeFiles/lesser-doom.dir/clean
-.PHONY : CMakeFiles/lesser-doom.dir/clean
+CMakeFiles/zoom.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoom.dir/build.make CMakeFiles/zoom.dir/clean
+.PHONY : CMakeFiles/zoom.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
