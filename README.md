@@ -7,4 +7,4 @@
 
 ## Preview
 
-- ![preview](./zoom.png)
+![preview](./zoom.png)
