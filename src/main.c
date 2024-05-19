@@ -60,10 +60,9 @@ bool windowInit(Window window) {
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_ES);
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 
-    window->window =
-        SDL_CreateWindow("Lesser Doom", SDL_WINDOWPOS_UNDEFINED,
-                         SDL_WINDOWPOS_UNDEFINED, window->width, window->height,
-                         SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
+    window->window = SDL_CreateWindow(
+        "zoom", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, window->width,
+        window->height, SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
     if (window->window == NULL) {
 
